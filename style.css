@@ -172,7 +172,7 @@ height: 45px;
 }
 .search-input{
  width: 100%;
- text-align: center;
+ padding: 5px;
     
 }
 .search-icon{
@@ -387,6 +387,7 @@ span{
 }
 /* card-sec---------------- */
 .container-1s{
+    height: 230px;
  background-color: transparent;
  display: flex;
  justify-content: space-evenly;
