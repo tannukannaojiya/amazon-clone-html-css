@@ -115,3 +115,48 @@ leftbtn.addEventListener("click", function(event){
   console.log(content.scrollRight);
   event.preventDefault();
 });
+
+// SingUp Page
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDKO-OzKsA-snur1T1krNmgvjozx5Bp0xw",
+//   authDomain: "clone-29c39.firebaseapp.com",
+//   projectId: "clone-29c39",
+//   storageBucket: "clone-29c39.appspot.com",
+//   messagingSenderId: "22477712922",
+//   appId: "1:22477712922:web:021f45a1f6c4be3b02aba3"
+// };
+
+// firebase.initializeApp(firebaseConfig);
+// const auth = firebase.auth();
+
+
+
+// const singUp = document.getElementsByClassName("signUpPage");
+// const singIn = document.getElementsByClassName("signInPage");
+// const name = document.getElementsByClassName("name").value;
+// const email = document.getElementsByClassName("email").value;
+// const password = document.getElementsByClassName("password").value;
+// const singUpButton = document.getElementsByClassName("singUpButton");
+
+// singUpButton.addEventListener("click", (e)=>{
+//   singUpPage();
+
+// })
+
+// function singUpPage () {
+//   auth.createUserWithEmailAndPassword(email, password)
+//     .then((userCredential) => {
+//       const user = userCredential.user;
+//       console.log("User signed in:", user);
+//       displayUserInfo(user);
+//     })
+//     .catch((error) => {
+//       console.error("Error signing in:", error);
+//     });
+
+// }
+
+
+
+
+
